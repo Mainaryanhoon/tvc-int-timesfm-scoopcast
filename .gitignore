@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.pyc
+.scoopcast_uploads/
+.DS_Store
+.env
