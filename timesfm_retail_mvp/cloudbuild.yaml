@@ -1,6 +1,7 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
   args: ['build', '-t', 'gcr.io/tvc-int-timesfm-scoopcast/scoopcast-app:latest', '.']
+  dir: 'timesfm_retail_mvp'
 images:
 - 'gcr.io/tvc-int-timesfm-scoopcast/scoopcast-app:latest'
 options:
